@@ -5,11 +5,15 @@ Vue.use(VueRouter);
 
 const createRouter = () =>
   new VueRouter({
-		mode: "history",
+    mode: "history",
     routes: [
       {
         path: "/",
-        component: () => import("@/views/Home.vue"),
+        name: "buscadorTicketsAereos",
+        component: () =>
+          import(
+            "src/@app/buscadorTicketsAereos/view/BuscadorTicketsAereos.page.vue"
+          ),
       },
     ],
   });

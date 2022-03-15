@@ -1,0 +1,9 @@
+// Card
+.card {
+  border: none;
+  box-shadow: 0px 10px 80px -10px rgba(44, 54, 92, 0.2);
+}
+
+/* Import Bootstrap an BootstrapVue CSS files (order is important) */
+@import "bootstrap/dist/css/bootstrap.css";
+@import "bootstrap-vue/dist/bootstrap-vue.css";
