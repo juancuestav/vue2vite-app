@@ -15,6 +15,14 @@ const createRouter = () =>
             "src/@app/buscadorTicketsAereos/view/BuscadorTicketsAereos.page.vue"
           ),
       },
+      {
+        path: "/resultado-busqueda-tickets",
+        name: "resultadoBusquedaTickets",
+        component: () =>
+          import(
+            "src/@app/resultadosBuscadorTicketsAereos/view/ResultadosBuscadorTicketsAereos.page.vue"
+          ),
+      },
     ],
   });
 
